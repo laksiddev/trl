@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>1.0.6</AssemblyVersion>
+    <FileVersion>1.0.6.21102</FileVersion>
+    <Version>1.0.6</Version>
+    <Authors>jkitagr@hotmail.com</Authors>
+    <Copyright>Copyright © James Kita 2017</Copyright>
+    <Company>jkitagr@hotmail.com</Company>
+    <Description>Tamper Resistant Library</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="System.Security.Cryptography.Algorithms" Version="4.3.1" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="4.4.0" />
+  </ItemGroup>
+
+</Project>

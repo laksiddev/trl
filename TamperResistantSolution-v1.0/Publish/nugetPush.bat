@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\Tools\nuget.exe" push -Source "https://analystsinternational.pkgs.visualstudio.com/b49b04ee-7fb1-4f24-886f-bde1dfa74c43/_packaging/PrivatePackages/nuget/v3/index.json" -ApiKey az Open.Trl.%1.nupkg
